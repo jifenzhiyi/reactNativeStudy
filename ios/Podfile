@@ -8,10 +8,6 @@ target 'flower1' do
 
   use_react_native!(:path => config["reactNativePath"])
 
-  target 'flower1Tests' do
-    inherit! :complete
-    # Pods for testing
-  end
 
   # Enables Flipper.
   #
@@ -20,14 +16,5 @@ target 'flower1' do
   use_flipper!
   post_install do |installer|
     flipper_post_install(installer)
-  end
-end
-
-target 'flower1-tvOS' do
-  # Pods for flower1-tvOS
-
-  target 'flower1-tvOSTests' do
-    inherit! :search_paths
-    # Pods for testing
   end
 end

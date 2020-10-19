@@ -10,7 +10,9 @@ npm i patch-package (如果需要更新第三方内容)
 or
 yarn add patch-package postinstall-postinstall
 
-yarn add react-native-reanimated react-native-gesture-handler react-native-screens react-native-safe-area-context @react-native-community/masked-view
+yarn add react-native-gesture-handler react-native-screens
+yarn add react-native-reanimated react-native-safe-area-context 
+yarn add @react-native-community/masked-view
 
 ## 目录结构
 
@@ -42,3 +44,4 @@ yarn add react-native-reanimated react-native-gesture-handler react-native-scree
 备注
 
 // 暗号：建立清晰规范的数据处理流程
+// 安好：明确状态归属，合理切分组件
