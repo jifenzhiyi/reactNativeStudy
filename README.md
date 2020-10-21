@@ -14,6 +14,13 @@ yarn add react-native-gesture-handler react-native-screens
 yarn add react-native-reanimated react-native-safe-area-context 
 yarn add @react-native-community/masked-view
 
+高德地图
+npm i react-native-amap3d
+
+webview
+yarn add react-native-webview | npm install --save react-native-webview
+
+
 ## 目录结构
 
 ```
